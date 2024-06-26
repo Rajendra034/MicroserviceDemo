@@ -19,7 +19,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '**/*.csproj'
+    projects: '**/CustomerApi.csproj'
     arguments: '--no-restore'
   displayName: 'Build'
 - task: DotNetCoreCLI@2
