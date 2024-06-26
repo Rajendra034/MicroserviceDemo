@@ -35,3 +35,4 @@ steps:
     projects: '**/*.csproj'
     arguments: --'configuration $(buildconfiguration) --no-restore'
     zipAfterPublish: true
+  displayName: 'publish'
