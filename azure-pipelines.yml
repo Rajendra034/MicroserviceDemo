@@ -25,7 +25,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
-    projects: '**/*test.csproj'
+    projects: '**/CustomerApi.Test.csproj'
     arguments: '--no-restore'
   displayName: 'Unit-test'
 - task: DotNetCoreCLI@2
