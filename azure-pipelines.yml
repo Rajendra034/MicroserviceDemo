@@ -32,6 +32,6 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: false
-    projects: '**/CustomerApi.csproj'
+    projects: '**/*.csproj'
     arguments: --'configuration $(buildconfiguration) --no-restore'
-    zipAfterPublish: false
+    zipAfterPublish: true
