@@ -32,7 +32,7 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: false
-    projects: '**/CustomerApi.csproj'
+    projects: '**/*CustomerApi.csproj'
     arguments: --'configuration $(buildconfiguration) --no-restore'
     zipAfterPublish: true
   displayName: 'publish'
